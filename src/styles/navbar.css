@@ -1,0 +1,49 @@
+.nav-main{
+    display: flex;
+    gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    border-radius: 0 20px 0 20px;
+}
+
+
+nav{
+    width: 70px;
+}
+:is(.icon,.icons-2){
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+
+.icons{
+    display: flex;
+    flex-direction: column;  
+    gap: 400px;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+img{
+    width: 50px;
+}
+
+:is(.search-icon,.i):hover{
+width: 35px;
+transition: 500ms;
+height: 35px;
+display:flex;
+border-radius: 4px;
+color: white;
+justify-content: center;
+align-items: center;
+background-color: rgb(95, 95, 222);
+}
+

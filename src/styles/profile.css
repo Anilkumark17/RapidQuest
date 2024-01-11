@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+
+.dp {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.profile {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+.profile-page {
+  width: 350px;
+}
+.user-details {
+  line-height: 7px;
+}
+.user-name {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  background-color: rgb(232, 221, 221);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+:is(.balance, .contributions) {
+  line-height: 7px;
+  font-family: "Poppins", sans-serif;
+}
+
+.profile-detailes {
+  display: flex;
+  align-items: flex-start;
+  width: 251px;
+  flex-direction: column;
+}
+
+.iwant {
+  background-color: rgb(88, 88, 235);
+  color: white;
+  border: none;
+  width: 80px;
+  height: 30px;
+  font-size: 0.8rem;
+  border-radius: 7px;
+}
+
+.today {
+  font-size: 1.3rem;
+}
+
+.amount {
+  font-size: 1.4rem;
+}
+.amount-cap {
+  font-size: 1rem;
+}
+
+.contribution {
+  font-size: 1.2rem;
+}
+
+.cont-cap {
+  font-size: 0.8rem;
+}
+
+.t-heading {
+  font-size: 1.2rem;
+}
+.transaction {
+  line-height: 3px;
+}
+
+.transactions {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.account {
+  font-size: 0.9rem;
+  font-weight: 500;
+
+}
+
+.date{
+  color: rgb(152, 141, 141);
+}
