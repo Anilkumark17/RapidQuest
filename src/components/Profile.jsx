@@ -34,6 +34,7 @@ const Profile = () => {
             <button className="iwant">I want to</button>
           </div>
         </div>
+        
         <div className="transactions">
           <div className="heading">
             <h2 className="t-heading">Transactions</h2>

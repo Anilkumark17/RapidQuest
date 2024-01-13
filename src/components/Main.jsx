@@ -3,11 +3,11 @@ import Graph from "./Graph";
 import CompareChart from "./CompareChart";
 import "../styles/main.css";
 
-const amounts = [
-  { id: 1, money: "$300,000", goal: "My goal" },
-  { id: 2, money: "59%", goal: "Goal Achieved" },
-  { id: 3, money: "$300", goal: "Est. Monthly income" },
-];
+// const amounts = [
+//   { id: 1, money: "$300,000", goal: "My goal" },
+//   { id: 2, money: "59%", goal: "Goal Achieved" },
+//   { id: 3, money: "$300", goal: "Est. Monthly income" },
+// ];
 
 const cat = [
   {
@@ -35,7 +35,7 @@ const Main = () => {
           <h4 className="heading-text">Retirement income</h4>
           <h3 className="start">Starting year 2056</h3>
         </div>
-        <div className="amount-strategy">
+        {/* <div className="amount-strategy">
           {amounts.map((amount) => (
             <div key={amount.id}>
               <div className="am-s">
@@ -45,6 +45,25 @@ const Main = () => {
               </div>
             </div>
           ))}
+        </div> */}
+        <div className="amount-strategy">
+          <div className="am-s-a">
+            <h2 className="money-am"> $300,000</h2>
+            <p className="tag">My-goal</p>
+          </div>
+          <div className="ams-g">
+          <div className="am-s">
+            <h2 className="money-am">59%</h2>
+            <p className="tag">Goal achieved</p>
+            <u className="main-u"></u>
+          </div>
+          <div className="am-s">
+                <h2 className="money-am">$300</h2>
+                <p className="tag">Est.monthly income</p>
+                <u className="main-u"></u>
+              </div>
+          </div>
+        
         </div>
         <div className="chart">
           <h2 className="chart-head">Contributions Overtime</h2>
@@ -74,7 +93,7 @@ const Main = () => {
                 })}
               </div>
               <div className="cat-graph">
-                <CompareChart/>
+                <CompareChart />
               </div>
             </div>
           </div>

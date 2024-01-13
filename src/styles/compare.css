@@ -1,3 +1,10 @@
 .user-am-comp{
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pie-gh{
+    width: 130px;
+    height: 150px;
 }

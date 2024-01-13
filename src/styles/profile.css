@@ -25,6 +25,7 @@
 .main {
   background-color: rgb(232, 221, 221);
   height: 100vh;
+  border-radius: 20px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -92,4 +93,10 @@
 
 .date{
   color: rgb(152, 141, 141);
+}
+
+@media (max-width: 700px){
+  .main{
+    height: 700px;
+  }
 }

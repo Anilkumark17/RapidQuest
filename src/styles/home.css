@@ -1,3 +1,66 @@
-.home-main{
+
+
+.home-main {
+  display: flex;
+}
+
+.navbar {
+  display: block;
+}
+
+.nav {
+  display: none;
+}
+
+.for-res {
+  display: flex;
+}
+
+
+@media (max-width: 700px) {
+  :is(.home-main,.home) {
     display: flex;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  
+  .navbar {
+    display: none;
+  }
+
+  .for-res {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .main-container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    width: 400px;
+    box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.1);
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .Retirement {
+    margin-bottom: 5rem;
+  }
 }

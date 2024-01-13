@@ -1,12 +1,12 @@
 import React, { useEffect, useRef } from "react";
 import Chart from "chart.js/auto";
 
-import '../styles/compare.css'
+import "../styles/compare.css";
 
 const CompareChart = () => {
   const chartRef = useRef(null);
   const chart = useRef(null);
-  const chartMe=useRef(null)
+  const chartMe = useRef(null);
   useEffect(() => {
     const ctx = chartRef.current.getContext("2d");
     const myChart = new Chart(ctx, {
@@ -85,7 +85,6 @@ const CompareChart = () => {
     };
   }, []);
 
-
   useEffect(() => {
     const ctx = chartMe.current.getContext("2d");
     const myChart = new Chart(ctx, {
@@ -128,13 +127,13 @@ const CompareChart = () => {
   return (
     <div className="user-am-comp">
       <div className="comp-avg">
-      <canvas ref={chartRef} width={150} height={150} />
+        <canvas ref={chartRef} width={150} height={150} className="pie-gh"/>
       </div>
       <div className="comp-top">
-      <canvas ref={chart} width={150} height={150} />
+        <canvas ref={chart} width={150} height={150} className="pie-gh"/>
       </div>
       <div className="comp-me">
-      <canvas ref={chartMe} width={150} height={150} />
+        <canvas ref={chartMe} width={150} height={150} className="pie-gh"/>
       </div>
     </div>
   );

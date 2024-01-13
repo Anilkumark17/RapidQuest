@@ -1,0 +1,6 @@
+.nav-main2 {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 3.5rem;
+  align-items: center;
+}

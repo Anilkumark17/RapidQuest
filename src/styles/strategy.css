@@ -1,3 +1,9 @@
 .age{
     display: flex;
 }
+
+@media (max-width:700px) {
+    canvas{
+        width: 10px;
+    }
+}

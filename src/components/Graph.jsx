@@ -9,7 +9,7 @@ const Graph = () => {
   React.useEffect(() => {
     const ctx = chartRef.current.getContext('2d');
     const height = 250; 
-    const width = 500; 
+    const width = 550; 
     ctx.canvas.style.height = `${height}px`;
     ctx.canvas.style.width = `${width}px`;
 
@@ -115,7 +115,7 @@ const Graph = () => {
     };
   }, []);
 
-  return <canvas ref={chartRef} />;
+  return <canvas ref={chartRef} className='bar-gh'/>;
 };
 
 export default Graph;

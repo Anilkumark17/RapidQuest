@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import Main from "../components/Main";
 import Profile from "../components/Profile";
 import "../styles/home.css";
+import Navbardown from "../components/Navbardown";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         <div className="navbar">
           <Navbar />
         </div>
+        <div className="for-res">
         <div className="profile">
           <Profile />
         </div>
@@ -22,9 +24,10 @@ const Home = () => {
         <div className="Retirement">
           <Reteirement />
         </div>
+        </div>
       </div>
       <div className="nav">
-        <Navbar />
+        <Navbardown/>
       </div>
     </div>
   );
